@@ -8,6 +8,10 @@ body {
     background-color: var(--tobo-bg);
 }
 
+main {
+    padding: 5rem;
+}
+
 :root {
     --tobo-bg: #f6f8f9;
     --tobo-ltext: #45abea;
