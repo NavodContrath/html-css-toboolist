@@ -1,15 +1,135 @@
 * {
     margin: 0;
     box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--tobo-bg);
+}
+
+:root {
+    --tobo-bg: #f6f8f9;
+    --tobo-ltext: #45abea;
+    --tobo-vio: #9c72e4;
+    --tobo-lhead: #47adf1;
+    --tobo-gtext: #b0c926;
+    --tobo-ptext: #d863a1;
+    --tobo-otext: #f29e33;
+    --tobo-vtext: #64c0a9;
+    --tobo-true: #a0dbce;
+    --tobo-false: #ee827d;
 }
 
 #site_header {
-    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
 }
 
 #logo {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: bold;
     vertical-align: bottom;
+}
+
+#nav {
+    width: 80%;
+    background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 2rem;
+}
+
+#task_button {
+    background-color: var(--tobo-lhead);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#section_button {
+    color: lightgrey;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#container {
+    width: 80%;
+    background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2px;
+    padding: 2rem;
+}
+
+#newtask {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.true {
+    color: var(--tobo-true);
+}
+
+.false {
+    color: var(--tobo-false);
+}
+
+.editorial {
+    background-color: var(--tobo-lhead);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.description {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#goals {
+    background-color: var(--tobo-vio);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#recruit {
+    background-color: var(--tobo-vtext);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#mobile {
+    background-color: var(--tobo-otext);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#web {
+    background-color: var(--tobo-ptext);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#sales {
+    background-color: var(--tobo-gtext);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: small;
 }
