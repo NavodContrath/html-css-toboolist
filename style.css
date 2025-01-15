@@ -65,6 +65,10 @@ body {
     padding: 2rem;
 }
 
+ul {
+    list-style: none;
+}
+
 .tasks {
     margin-bottom: 1rem;
 }
@@ -88,6 +92,12 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
+}
+
+li {
+    padding: 0.5rem 0;
+    font-weight: 200;
 }
 
 .description {
@@ -101,6 +111,7 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
 }
 
 #recruit {
@@ -109,6 +120,7 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
 }
 
 #mobile {
@@ -117,6 +129,7 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
 }
 
 #web {
@@ -125,6 +138,7 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
 }
 
 #sales {
@@ -133,4 +147,5 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: small;
+    font-weight: bold;
 }
